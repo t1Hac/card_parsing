@@ -1,0 +1,2917 @@
+{
+    "items": [
+        {
+            "partnerId": 63520,
+            "partnerUid": 635201,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5327,
+                    "productUid": 846401,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Бонусы",
+                                "value": "Нет",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "34.903%–99.921%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "34.9%–99.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/tracking-url?category=creditcards&productId=8464&aff_sub2=%2Fproducts%2Fcreditcards%2F&aff_sub1=MAINPRODUCT&aff_unique3=cc_unauth-feed_page_core_b",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8464,
+                    "withCompare": true,
+                    "rating": 4.9,
+                    "productInfo": {
+                        "productId": 5327,
+                        "productType": "credit_card",
+                        "productName": "120 дней на максимум",
+                        "name": "120 дней на максимум",
+                        "url": "https://www.banki.ru/products/creditcards/card/8464/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11836066_small.png",
+                        "updatedAt": "14.03.2025 11:44",
+                        "partner": {
+                            "id": 63520,
+                            "type": "bank",
+                            "name": "Уралсиб",
+                            "image": "https://static3.banki.ru/ugc/07/33/dd/92/63520.png",
+                            "license": "30",
+                            "url": "/banks/bank/uralsib/",
+                            "phone": "8 800 250-57-57",
+                            "address": "119048, г. Москва, ул. Ефремова, д. 8"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8464/",
+                            "rateMin": 34.9,
+                            "rateMax": 99.9,
+                            "rateRange": "34,9 - 99,9%",
+                            "fullCreditRateMin": 34.903,
+                            "fullCreditRateMax": 99.921,
+                            "amountMin": 10000,
+                            "amountMax": 5000000,
+                            "amountRange": "10 000 - 5 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* без комиссии",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 846401
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4275,
+                    "productUid": 72201,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Бонусы",
+                                "value": "Нет",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 17 880 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "34.903%–99.921%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "34.9%–99.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": null
+                    },
+                    "originalId": 722,
+                    "withCompare": true,
+                    "rating": 4.3,
+                    "productInfo": {
+                        "productId": 4275,
+                        "productType": "credit_card",
+                        "productName": "MIR Supreme",
+                        "name": "Премиальная MIR Supreme",
+                        "url": "https://www.banki.ru/products/creditcards/card/722/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11922768_small.png",
+                        "updatedAt": "07.03.2025 10:47",
+                        "partner": {
+                            "id": 63520,
+                            "type": "bank",
+                            "name": "Уралсиб",
+                            "image": "https://static3.banki.ru/ugc/07/33/dd/92/63520.png",
+                            "license": "30",
+                            "url": "/banks/bank/uralsib/",
+                            "phone": "8 800 250-57-57",
+                            "address": "119048, г. Москва, ул. Ефремова, д. 8"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/722/",
+                            "rateMin": 34.9,
+                            "rateMax": 99.9,
+                            "rateRange": "34,9 - 99,9%",
+                            "fullCreditRateMin": 34.903,
+                            "fullCreditRateMax": 99.921,
+                            "amountMin": null,
+                            "amountMax": 5000000,
+                            "amountRange": "до 5 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 17880,
+                            "cashWithdrawalsAtAtms": "* без комиссии",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 72201
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5098,
+                    "productUid": 716701,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 62 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "есть",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 1 788 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "34.903%–99.921%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "34.9%–99.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": null
+                    },
+                    "originalId": 7167,
+                    "withCompare": true,
+                    "rating": 4.8,
+                    "productInfo": {
+                        "productId": 5098,
+                        "productType": "credit_card",
+                        "productName": "с кешбэком",
+                        "name": "с кешбэком",
+                        "url": "https://www.banki.ru/products/creditcards/card/7167/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12206167_small.png",
+                        "updatedAt": "07.03.2025 10:46",
+                        "partner": {
+                            "id": 63520,
+                            "type": "bank",
+                            "name": "Уралсиб",
+                            "image": "https://static3.banki.ru/ugc/07/33/dd/92/63520.png",
+                            "license": "30",
+                            "url": "/banks/bank/uralsib/",
+                            "phone": "8 800 250-57-57",
+                            "address": "119048, г. Москва, ул. Ефремова, д. 8"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/7167/",
+                            "rateMin": 34.9,
+                            "rateMax": 99.9,
+                            "rateRange": "34,9 - 99,9%",
+                            "fullCreditRateMin": 34.903,
+                            "fullCreditRateMax": 99.921,
+                            "amountMin": 10000,
+                            "amountMax": 5000000,
+                            "amountRange": "10 000 - 5 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 1788,
+                            "cashWithdrawalsAtAtms": "* 3,99% от суммы + 300 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 3,99% от суммы + 300 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 716701
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 195706,
+            "partnerUid": 1957061,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 4244,
+                    "productUid": 67501,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 6000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 590 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.855%–59.999%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [
+                            {
+                                "title": "Бесплатное годовое обслуживание",
+                                "type": "special_offer",
+                                "typeName": "Спецпредложение"
+                            },
+                            {
+                                "title": "Розыгрыш с призовым фондом 4 000 000 ₽",
+                                "type": "bank_offer",
+                                "typeName": "Акции банка"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/tracking-url?category=creditcards&productId=675&aff_sub2=%2Fproducts%2Fcreditcards%2F&aff_sub1=MAINPRODUCT&aff_unique3=cc_unauth-feed_page_core_b",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 675,
+                    "withCompare": true,
+                    "rating": 4.9,
+                    "productInfo": {
+                        "productId": 4244,
+                        "productType": "credit_card",
+                        "productName": "Платинум",
+                        "name": "Платинум с бесплатным годом обслуживания при оформлении на Банки.ру",
+                        "url": "https://www.banki.ru/products/creditcards/card/675/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12422403_small.png",
+                        "updatedAt": "14.03.2025 10:18",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/675/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.855,
+                            "fullCreditRateMax": 59.999,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 590,
+                            "cashWithdrawalsAtAtms": "* 2,9% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 67501
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5069,
+                    "productUid": 707301,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 5000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "990 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–59.858%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=7073&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 7073,
+                    "withCompare": true,
+                    "rating": 4.6,
+                    "productInfo": {
+                        "productId": 5069,
+                        "productType": "credit_card",
+                        "productName": "Drive",
+                        "name": "Drive",
+                        "url": "https://www.banki.ru/products/creditcards/card/7073/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_10346723_small.png",
+                        "updatedAt": "14.03.2025 10:44",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/7073/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 59.858,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 990,
+                            "annualServiceMax": 990,
+                            "cashWithdrawalsAtAtms": "* 2,9% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 707301
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4241,
+                    "productUid": 67201,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Мили",
+                                "value": "есть",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "1 890 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–59.602%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=672&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 672,
+                    "withCompare": true,
+                    "rating": 4.7,
+                    "productInfo": {
+                        "productId": 4241,
+                        "productType": "credit_card",
+                        "productName": "All Airlines",
+                        "name": "All Airlines",
+                        "url": "https://www.banki.ru/products/creditcards/card/672/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12445663_small.png",
+                        "updatedAt": "14.03.2025 10:36",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/672/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 59.602,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 1890,
+                            "annualServiceMax": 1890,
+                            "cashWithdrawalsAtAtms": "* 2% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 67201
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5074,
+                    "productUid": 709001,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Мили",
+                                "value": "до 30000",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 23 880 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–39.625%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–39.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=7090&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 7090,
+                    "withCompare": true,
+                    "rating": 4.5,
+                    "productInfo": {
+                        "productId": 5074,
+                        "productType": "credit_card",
+                        "productName": "All Airlines",
+                        "name": "All Airlines Premium",
+                        "url": "https://www.banki.ru/products/creditcards/card/7090/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11813384_small.png",
+                        "updatedAt": "14.03.2025 10:37",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/7090/",
+                            "rateMin": 29.9,
+                            "rateMax": 39.9,
+                            "rateRange": "29,9 - 39,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 39.625,
+                            "amountMin": null,
+                            "amountMax": 2000000,
+                            "amountRange": "до 2 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 23880,
+                            "cashWithdrawalsAtAtms": "* без комиссии при снятии до 100 000 ₽/мес., далее — 2% от суммы",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии при снятии до 100 000 ₽/мес., далее — 2% от суммы",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 709001
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4639,
+                    "productUid": 226201,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 6000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "990 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–59.858%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=2262&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 2262,
+                    "withCompare": true,
+                    "rating": 4.6,
+                    "productInfo": {
+                        "productId": 4639,
+                        "productType": "credit_card",
+                        "productName": "AliExpress",
+                        "name": "AliExpress",
+                        "url": "https://www.banki.ru/products/creditcards/card/2262/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11949966_small.png",
+                        "updatedAt": "14.03.2025 10:47",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/2262/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 59.858,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 990,
+                            "annualServiceMax": 990,
+                            "cashWithdrawalsAtAtms": "* 2,9% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 226201
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4937,
+                    "productUid": 614101,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Мили",
+                                "value": "есть",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "1 890 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–59.602%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=6141&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 6141,
+                    "withCompare": true,
+                    "rating": 4.5,
+                    "productInfo": {
+                        "productId": 4937,
+                        "productType": "credit_card",
+                        "productName": "S7",
+                        "name": "S7",
+                        "url": "https://www.banki.ru/products/creditcards/card/6141/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12422851_small.png",
+                        "updatedAt": "14.03.2025 10:32",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/6141/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 59.602,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 1890,
+                            "annualServiceMax": 1890,
+                            "cashWithdrawalsAtAtms": "* 2,9% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 614101
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4657,
+                    "productUid": 240601,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 6000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "990 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–59.858%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=2406&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 2406,
+                    "withCompare": true,
+                    "rating": 4.5,
+                    "productInfo": {
+                        "productId": 4657,
+                        "productType": "credit_card",
+                        "productName": "Lamoda",
+                        "name": "Lamoda",
+                        "url": "https://www.banki.ru/products/creditcards/card/2406/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11075299_small.png",
+                        "updatedAt": "14.03.2025 10:48",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/2406/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 59.858,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 990,
+                            "annualServiceMax": 990,
+                            "cashWithdrawalsAtAtms": "* 390 ₽ при снятии до 100 000 ₽/мес., далее — 2% от суммы + 390 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 390 ₽ при снятии до 100 000 ₽/мес., далее — 2% от суммы + 390 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 240601
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5312,
+                    "productUid": 837401,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "есть",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "990 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–59.858%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8374&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8374,
+                    "withCompare": true,
+                    "rating": 4.5,
+                    "productInfo": {
+                        "productId": 5312,
+                        "productType": "credit_card",
+                        "productName": "ЛУКОЙЛ",
+                        "name": "ЛУКОЙЛ",
+                        "url": "https://www.banki.ru/products/creditcards/card/8374/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11498629_small.png",
+                        "updatedAt": "14.03.2025 10:20",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8374/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 59.858,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 990,
+                            "annualServiceMax": 990,
+                            "cashWithdrawalsAtAtms": "* 2,9% от сумма + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от сумма + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 837401
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4579,
+                    "productUid": 150701,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 6000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "990 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.855%–59.999%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=1507&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 1507,
+                    "withCompare": true,
+                    "rating": 4.6,
+                    "productInfo": {
+                        "productId": 4579,
+                        "productType": "credit_card",
+                        "productName": "All Games",
+                        "name": "All Games",
+                        "url": "https://www.banki.ru/products/creditcards/card/1507/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12445614_small.png",
+                        "updatedAt": "14.03.2025 10:45",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/1507/",
+                            "rateMin": 29.9,
+                            "rateMax": 59.9,
+                            "rateRange": "29,9 - 59,9%",
+                            "fullCreditRateMin": 29.855,
+                            "fullCreditRateMax": 59.999,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 990,
+                            "annualServiceMax": 990,
+                            "cashWithdrawalsAtAtms": "* 2,9% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 150701
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4936,
+                    "productUid": 614001,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Мили",
+                                "value": "есть",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 23 880 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–39.625%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–39.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=6140&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 6140,
+                    "withCompare": true,
+                    "rating": 4.5,
+                    "productInfo": {
+                        "productId": 4936,
+                        "productType": "credit_card",
+                        "productName": "S7",
+                        "name": "S7 Premium",
+                        "url": "https://www.banki.ru/products/creditcards/card/6140/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12422855_small.png",
+                        "updatedAt": "14.03.2025 10:32",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/6140/",
+                            "rateMin": 29.9,
+                            "rateMax": 39.9,
+                            "rateRange": "29,9 - 39,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 39.625,
+                            "amountMin": null,
+                            "amountMax": 2000000,
+                            "amountRange": "до 2 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 23880,
+                            "cashWithdrawalsAtAtms": "* без комиссии при снятии до 100 000 ₽/мес., далее — 2% от суммы",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии при снятии до 100 000 ₽/мес., далее — 2% от суммы",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 614001
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 18168,
+                    "productUid": 912201,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 6000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "590 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "58.740%–59.999%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "59.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=9122&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 9122,
+                    "withCompare": true,
+                    "rating": 4.9,
+                    "productInfo": {
+                        "productId": 18168,
+                        "productType": "credit_card",
+                        "productName": "Платинум 120 дней на покупки",
+                        "name": "Платинум",
+                        "url": "https://www.banki.ru/products/creditcards/card/9122/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12422403_small.png",
+                        "updatedAt": "14.03.2025 10:19",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/9122/",
+                            "rateMin": 59.9,
+                            "rateMax": 59.9,
+                            "rateRange": "59,9%",
+                            "fullCreditRateMin": 58.74,
+                            "fullCreditRateMax": 59.999,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 590,
+                            "annualServiceMax": 590,
+                            "cashWithdrawalsAtAtms": "* 2,9% от суммы + 290 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,9% от суммы + 290 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 912201
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5398,
+                    "productUid": 896601,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Кэшбэк",
+                                "value": "до 15%",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 23 880 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "29.885%–39.625%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "29.9%–39.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8966&bank_id=195706&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8966,
+                    "withCompare": true,
+                    "rating": 4.6,
+                    "productInfo": {
+                        "productId": 5398,
+                        "productType": "credit_card",
+                        "productName": "Platinum Premium",
+                        "name": "Platinum Premium",
+                        "url": "https://www.banki.ru/products/creditcards/card/8966/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12275048_small.jpg",
+                        "updatedAt": "14.03.2025 10:34",
+                        "partner": {
+                            "id": 195706,
+                            "type": "bank",
+                            "name": "Т-Банк",
+                            "image": "https://static4.banki.ru/ugc/d4/e8/54/40/195706.png",
+                            "license": "2673",
+                            "url": "/banks/bank/tcs/",
+                            "phone": "8 800 555-10-10",
+                            "address": "127287, г. Москва, ул. 2-я Хуторская, д.38А, стр.26"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8966/",
+                            "rateMin": 29.9,
+                            "rateMax": 39.9,
+                            "rateRange": "29,9 - 39,9%",
+                            "fullCreditRateMin": 29.885,
+                            "fullCreditRateMax": 39.625,
+                            "amountMin": null,
+                            "amountMax": 2000000,
+                            "amountRange": "до 2 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 23880,
+                            "cashWithdrawalsAtAtms": "* без комиссии при снятии до 100 000 ₽/мес., далее — 2% от суммы",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии при снятии до 100 000 ₽/мес., далее — 2% от суммы",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 896601
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 325,
+            "partnerUid": 3251,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 3879,
+                    "productUid": 7301,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 100 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Бонусы",
+                                "value": "Нет",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 990 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "58.217%–58.944%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "49.49%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/tracking-url?category=creditcards&productId=73&aff_sub2=%2Fproducts%2Fcreditcards%2F&aff_sub1=MAINPRODUCT&aff_unique3=cc_unauth-feed_page_core_b",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 73,
+                    "withCompare": true,
+                    "rating": 4.9,
+                    "productInfo": {
+                        "productId": 3879,
+                        "productType": "credit_card",
+                        "productName": "Кредитная карта",
+                        "name": "Кредитная карта",
+                        "url": "https://www.banki.ru/products/creditcards/card/73/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12087989_small.jpg",
+                        "updatedAt": "14.03.2025 08:48",
+                        "partner": {
+                            "id": 325,
+                            "type": "bank",
+                            "name": "Альфа-Банк",
+                            "image": "https://static2.banki.ru/ugc/a8/9c/55/8e/325.png",
+                            "license": "1326",
+                            "url": "/banks/bank/alfabank/",
+                            "phone": "8 800 200-00-00",
+                            "address": "107078, г. Москва, ул. Каланчевская, д. 27"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/73/",
+                            "rateMin": 49.49,
+                            "rateMax": 49.49,
+                            "rateRange": "49,5%",
+                            "fullCreditRateMin": 58.217,
+                            "fullCreditRateMax": 58.944,
+                            "amountMin": 10000,
+                            "amountMax": 1000000,
+                            "amountRange": "10 000 - 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 990,
+                            "cashWithdrawalsAtAtms": "* 3,9% от суммы + 390 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 3,9% от суммы + 390 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 7301
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5269,
+                    "productUid": 815501,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 100 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Бонусы",
+                                "value": "Нет",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 1 490 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "58.859%–58.867%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "58.99%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8155&bank_id=325&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8155,
+                    "withCompare": true,
+                    "rating": 4.3,
+                    "productInfo": {
+                        "productId": 5269,
+                        "productType": "credit_card",
+                        "productName": "Билайн",
+                        "name": "Билайн",
+                        "url": "https://www.banki.ru/products/creditcards/card/8155/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12445620_small.png",
+                        "updatedAt": "11.03.2025 12:53",
+                        "partner": {
+                            "id": 325,
+                            "type": "bank",
+                            "name": "Альфа-Банк",
+                            "image": "https://static2.banki.ru/ugc/a8/9c/55/8e/325.png",
+                            "license": "1326",
+                            "url": "/banks/bank/alfabank/",
+                            "phone": "8 800 200-00-00",
+                            "address": "107078, г. Москва, ул. Каланчевская, д. 27"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8155/",
+                            "rateMin": 58.99,
+                            "rateMax": 58.99,
+                            "rateRange": "59%",
+                            "fullCreditRateMin": 58.859,
+                            "fullCreditRateMax": 58.867,
+                            "amountMin": 10000,
+                            "amountMax": 300000,
+                            "amountRange": "10 000 - 300 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 1490,
+                            "cashWithdrawalsAtAtms": "* 3,9% от суммы + 390 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 3,9% от суммы + 390 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 815501
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 322,
+            "partnerUid": 3221,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5330,
+                    "productUid": 848101,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 2000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "46.908%–48.828%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "9.8%–49.8%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/tracking-url?category=creditcards&productId=8481&aff_sub2=%2Fproducts%2Fcreditcards%2F&aff_sub1=MAINPRODUCT&aff_unique3=cc_unauth-feed_page_core_b",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8481,
+                    "withCompare": true,
+                    "rating": 4.9,
+                    "productInfo": {
+                        "productId": 5330,
+                        "productType": "credit_card",
+                        "productName": "Кредитная СберКарта",
+                        "name": "СберКарта",
+                        "url": "https://www.banki.ru/products/creditcards/card/8481/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11641587_small.png",
+                        "updatedAt": "14.03.2025 11:42",
+                        "partner": {
+                            "id": 322,
+                            "type": "bank",
+                            "name": "Сбербанк",
+                            "image": "https://static3.banki.ru/ugc/9d/12/0b/81/322.png",
+                            "license": "1481",
+                            "url": "/banks/bank/sberbank/",
+                            "phone": "8 800 555-55-50",
+                            "address": "117997, г. Москва, ул. Вавилова, д. 19"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8481/",
+                            "rateMin": 9.8,
+                            "rateMax": 49.8,
+                            "rateRange": "9,8 - 49,8%",
+                            "fullCreditRateMin": 46.908,
+                            "fullCreditRateMax": 48.828,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* 3,9% от суммы + 390 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 3,9% от суммы+ 390 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 848101
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 17703,
+                    "productUid": 908601,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 2000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "46.908%–48.828%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "9.8%–49.8%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/tracking-url?category=creditcards&productId=9086&aff_sub2=%2Fproducts%2Fcreditcards%2F&aff_sub1=MAINPRODUCT&aff_unique3=cc_unauth-feed_page_core_b",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 9086,
+                    "withCompare": true,
+                    "rating": 4.9,
+                    "productInfo": {
+                        "productId": 17703,
+                        "productType": "credit_card",
+                        "productName": "Кредитная СберКарта Молодежная",
+                        "name": "СберКарта Молодежная",
+                        "url": "https://www.banki.ru/products/creditcards/card/9086/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12445742_small.png",
+                        "updatedAt": "14.03.2025 11:42",
+                        "partner": {
+                            "id": 322,
+                            "type": "bank",
+                            "name": "Сбербанк",
+                            "image": "https://static3.banki.ru/ugc/9d/12/0b/81/322.png",
+                            "license": "1481",
+                            "url": "/banks/bank/sberbank/",
+                            "phone": "8 800 555-55-50",
+                            "address": "117997, г. Москва, ул. Вавилова, д. 19"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/9086/",
+                            "rateMin": 9.8,
+                            "rateMax": 49.8,
+                            "rateRange": "9,8 - 49,8%",
+                            "fullCreditRateMin": 46.908,
+                            "fullCreditRateMax": 48.828,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* 3,9% от суммы + 390 ₽",
+                            "cashWithdrawalsAtOtherBankAtms": "* 3,9% от суммы+ 390 ₽",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 908601
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 16196,
+            "partnerUid": 161961,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5247,
+                    "productUid": 807301,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Бонусы",
+                                "value": "Нет",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "37.900%–39.900%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "39.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/tracking-url?category=creditcards&productId=8073&aff_sub2=%2Fproducts%2Fcreditcards%2F&aff_sub1=MAINPRODUCT&aff_unique3=cc_unauth-feed_page_core_b",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8073,
+                    "withCompare": true,
+                    "rating": null,
+                    "productInfo": {
+                        "productId": 5247,
+                        "productType": "credit_card",
+                        "productName": "120 дней без процентов",
+                        "name": "120 дней без процентов",
+                        "url": "https://www.banki.ru/products/creditcards/card/8073/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12326795_small.png",
+                        "updatedAt": "27.02.2025 09:47",
+                        "partner": {
+                            "id": 16196,
+                            "type": "bank",
+                            "name": "ОТП Банк",
+                            "image": "https://static3.banki.ru/ugc/c1/2e/45/6d/16196.png",
+                            "license": "2766",
+                            "url": "/banks/bank/otpbank/",
+                            "phone": "+7 (495) 775-47-75",
+                            "address": "125171, г. Москва, Ленинградское ш., д. 16а, стр. 2"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8073/",
+                            "rateMin": 39.9,
+                            "rateMax": 39.9,
+                            "rateRange": "39,9%",
+                            "fullCreditRateMin": 37.9,
+                            "fullCreditRateMax": 39.9,
+                            "amountMin": 10000,
+                            "amountMax": 1000000,
+                            "amountRange": "10 000 - 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* без комиссии",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 807301
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5369,
+                    "productUid": 875901,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 120 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 3000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "33.799%–34.900%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "34.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8759&bank_id=16196&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8759,
+                    "withCompare": true,
+                    "rating": null,
+                    "productInfo": {
+                        "productId": 5369,
+                        "productType": "credit_card",
+                        "productName": "ОТП Premium",
+                        "name": "ОТП Premium",
+                        "url": "https://www.banki.ru/products/creditcards/card/8759/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11874890_small.png",
+                        "updatedAt": "27.02.2025 10:57",
+                        "partner": {
+                            "id": 16196,
+                            "type": "bank",
+                            "name": "ОТП Банк",
+                            "image": "https://static3.banki.ru/ugc/c1/2e/45/6d/16196.png",
+                            "license": "2766",
+                            "url": "/banks/bank/otpbank/",
+                            "phone": "+7 (495) 775-47-75",
+                            "address": "125171, г. Москва, Ленинградское ш., д. 16а, стр. 2"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8759/",
+                            "rateMin": 34.9,
+                            "rateMax": 34.9,
+                            "rateRange": "34,9%",
+                            "fullCreditRateMin": 33.799,
+                            "fullCreditRateMax": 34.9,
+                            "amountMin": 200000,
+                            "amountMax": 1500000,
+                            "amountRange": "200 000 - 1 500 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* без комиссии",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 875901
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 41643,
+            "partnerUid": 416431,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5084,
+                    "productUid": 713101,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 5000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "0.000%–28.124%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "0%–29.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=7131&bank_id=41643&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 7131,
+                    "withCompare": true,
+                    "rating": 4.4,
+                    "productInfo": {
+                        "productId": 5084,
+                        "productType": "credit_card",
+                        "productName": "Card Credit Plus",
+                        "name": "Card Credit Plus",
+                        "url": "https://www.banki.ru/products/creditcards/card/7131/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11919777_small.png",
+                        "updatedAt": "12.03.2025 12:17",
+                        "partner": {
+                            "id": 41643,
+                            "type": "bank",
+                            "name": "Кредит Европа Банк",
+                            "image": "https://static4.banki.ru/ugc/95/58/3c/a9/41643.png",
+                            "license": "3311",
+                            "url": "/banks/bank/crediteuropebank/",
+                            "phone": "8 800 700-77-57",
+                            "address": "129090, г. Москва, Олимпийский проспект, дом 14"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/7131/",
+                            "rateMin": 0,
+                            "rateMax": 29.9,
+                            "rateRange": "0 - 29,9%",
+                            "fullCreditRateMin": 0,
+                            "fullCreditRateMax": 28.124,
+                            "amountMin": 9900,
+                            "amountMax": 600000,
+                            "amountRange": "9 900 - 600 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* 4,9% от суммы (мин. 399 ₽); \n* без комиссии при снятии собственных средств",
+                            "cashWithdrawalsAtOtherBankAtms": "* 5,5% от суммы (мин. 499 ₽); \n* 4,9% от суммы (мин. 399 ₽) за пределами РФ",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 713101
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5349,
+                    "productUid": 861201,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 40 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 5000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "0.000%–29.190%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "0%–29.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [
+                            {
+                                "title": "3.5% баллами дополнительно при покупках в опеределенных категориях",
+                                "type": "bank_offer",
+                                "typeName": "Акции банка"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8612&bank_id=41643&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8612,
+                    "withCompare": true,
+                    "rating": 4.4,
+                    "productInfo": {
+                        "productId": 5349,
+                        "productType": "credit_card",
+                        "productName": "CARD CREDIT",
+                        "name": "Карта рассрочки \"Card Credit\"",
+                        "url": "https://www.banki.ru/products/creditcards/card/8612/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12127126_small.png",
+                        "updatedAt": "12.03.2025 12:27",
+                        "partner": {
+                            "id": 41643,
+                            "type": "bank",
+                            "name": "Кредит Европа Банк",
+                            "image": "https://static4.banki.ru/ugc/95/58/3c/a9/41643.png",
+                            "license": "3311",
+                            "url": "/banks/bank/crediteuropebank/",
+                            "phone": "8 800 700-77-57",
+                            "address": "129090, г. Москва, Олимпийский проспект, дом 14"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8612/",
+                            "rateMin": 0,
+                            "rateMax": 29.9,
+                            "rateRange": "0 - 29,9%",
+                            "fullCreditRateMin": 0,
+                            "fullCreditRateMax": 29.19,
+                            "amountMin": 9900,
+                            "amountMax": 600000,
+                            "amountRange": "9 900 - 600 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* без комиссии",
+                            "cashWithdrawalsAtOtherBankAtms": "* без комиссии",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 861201
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5228,
+                    "productUid": 786301,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 5000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "0.000%–28.124%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "0%–29.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=7863&bank_id=41643&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 7863,
+                    "withCompare": true,
+                    "rating": 4.4,
+                    "productInfo": {
+                        "productId": 5228,
+                        "productType": "credit_card",
+                        "productName": "Urban Card",
+                        "name": "Urban Card",
+                        "url": "https://www.banki.ru/products/creditcards/card/7863/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/thumbnail_urban_card_b732367b9d.png",
+                        "updatedAt": "04.03.2025 17:49",
+                        "partner": {
+                            "id": 41643,
+                            "type": "bank",
+                            "name": "Кредит Европа Банк",
+                            "image": "https://static4.banki.ru/ugc/95/58/3c/a9/41643.png",
+                            "license": "3311",
+                            "url": "/banks/bank/crediteuropebank/",
+                            "phone": "8 800 700-77-57",
+                            "address": "129090, г. Москва, Олимпийский проспект, дом 14"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/7863/",
+                            "rateMin": 0,
+                            "rateMax": 29.9,
+                            "rateRange": "0 - 29,9%",
+                            "fullCreditRateMin": 0,
+                            "fullCreditRateMax": 28.124,
+                            "amountMin": 9900,
+                            "amountMax": 600000,
+                            "amountRange": "9 900 - 600 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* 4,9% от суммы снятия (мин. 399 ₽)",
+                            "cashWithdrawalsAtOtherBankAtms": "* 5,5% от суммы (мин. 399 ₽) при снятии в пределах РФ; \n* 4,9% от суммы (мин. 499 ₽) при снятии за пределами РФ",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 786301
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 194000,
+            "partnerUid": 1940001,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5365,
+                    "productUid": 873401,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 112 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 10000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 1 188 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "42.336%–51.828%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "40%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8734&bank_id=194000&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8734,
+                    "withCompare": true,
+                    "rating": null,
+                    "productInfo": {
+                        "productId": 5365,
+                        "productType": "credit_card",
+                        "productName": "112 дней без %",
+                        "name": "112 дней без %",
+                        "url": "https://www.banki.ru/products/creditcards/card/8734/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11913426_small.png",
+                        "updatedAt": "14.03.2025 11:11",
+                        "partner": {
+                            "id": 194000,
+                            "type": "bank",
+                            "name": "Банк ПТБ",
+                            "image": "https://static3.banki.ru/ugc/64/ca/51/2d/194000.png",
+                            "license": "2638",
+                            "url": "/banks/bank/promtransbank/",
+                            "phone": "+7 (347) 299-99-99",
+                            "address": "450000, Республика Башкортостан, г. Уфа, ул. Ленина, д. 70"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8734/",
+                            "rateMin": 40,
+                            "rateMax": 40,
+                            "rateRange": "40%",
+                            "fullCreditRateMin": 42.336,
+                            "fullCreditRateMax": 51.828,
+                            "amountMin": 50000,
+                            "amountMax": 299000,
+                            "amountRange": "50 000 - 299 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 1188,
+                            "cashWithdrawalsAtAtms": "* 2,5% от суммы (мин. 300 ₽)",
+                            "cashWithdrawalsAtOtherBankAtms": "* 2,5% от суммы (мин. 300 ₽)",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 873401
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 4988,
+                    "productUid": 655501,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 50 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Бонусы",
+                                "value": "Нет",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "41.652%–48.588%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "40%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=6555&bank_id=194000&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 6555,
+                    "withCompare": true,
+                    "rating": null,
+                    "productInfo": {
+                        "productId": 4988,
+                        "productType": "credit_card",
+                        "productName": "ПТБ-Рахмат",
+                        "name": "ПТБ-Рахмат",
+                        "url": "https://www.banki.ru/products/creditcards/card/6555/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11913419_small.png",
+                        "updatedAt": "14.03.2025 11:18",
+                        "partner": {
+                            "id": 194000,
+                            "type": "bank",
+                            "name": "Банк ПТБ",
+                            "image": "https://static3.banki.ru/ugc/64/ca/51/2d/194000.png",
+                            "license": "2638",
+                            "url": "/banks/bank/promtransbank/",
+                            "phone": "+7 (347) 299-99-99",
+                            "address": "450000, Республика Башкортостан, г. Уфа, ул. Ленина, д. 70"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/6555/",
+                            "rateMin": 40,
+                            "rateMax": 40,
+                            "rateRange": "40%",
+                            "fullCreditRateMin": 41.652,
+                            "fullCreditRateMax": 48.588,
+                            "amountMin": 50000,
+                            "amountMax": 299000,
+                            "amountRange": "50 000 - 299 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* 3% от суммы (мин. 100 ₽)",
+                            "cashWithdrawalsAtOtherBankAtms": "* 3% от суммы (мин. 100 ₽)",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 655501
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 327,
+            "partnerUid": 3271,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5182,
+                    "productUid": 755501,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 200 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Кэшбэк",
+                                "value": "до 15%",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 35 880 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "47.000%–69.900%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "49.9%–69.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=7555&bank_id=327&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 7555,
+                    "withCompare": true,
+                    "rating": 4.4,
+                    "productInfo": {
+                        "productId": 5182,
+                        "productType": "credit_card",
+                        "productName": "Мультикарта Привилегия",
+                        "name": "Премиальная Карта возможностей",
+                        "url": "https://www.banki.ru/products/creditcards/card/7555/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_10600532_small.png",
+                        "updatedAt": "12.03.2025 11:05",
+                        "partner": {
+                            "id": 327,
+                            "type": "bank",
+                            "name": "ВТБ",
+                            "image": "https://static2.banki.ru/ugc/ed/5f/1a/1c/327.png",
+                            "license": "1000",
+                            "url": "/banks/bank/vtb/",
+                            "phone": "8 800 100-24-24 ",
+                            "address": "190000, г. Санкт-Петербург, ул. Большая Морская, д. 29"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/7555/",
+                            "rateMin": 49.9,
+                            "rateMax": 69.9,
+                            "rateRange": "49,9 - 69,9%",
+                            "fullCreditRateMin": 47,
+                            "fullCreditRateMax": 69.9,
+                            "amountMin": 10000,
+                            "amountMax": 1000000,
+                            "amountRange": "10 000 - 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 35880,
+                            "cashWithdrawalsAtAtms": "* 5,9% от суммы + 590 ₽ за счет кредитных средств; \n* без комиссии за счет собственных средств",
+                            "cashWithdrawalsAtOtherBankAtms": "* 5,9% от суммы + 590 ₽ за счет кредитных средств; \n* 1% от суммы (мин. 300 ₽) за счет собственных средств",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 755501
+                    }
+                },
+                {
+                    "template": "public",
+                    "productId": 5274,
+                    "productUid": 817401,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 200 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Кэшбэк",
+                                "value": "до 15%",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "бесплатно",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "47.000%–69.900%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "49.9%–69.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [
+                            {
+                                "value": "Доставка",
+                                "type": "light_green"
+                            }
+                        ],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8174&bank_id=327&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8174,
+                    "withCompare": true,
+                    "rating": 4.7,
+                    "productInfo": {
+                        "productId": 5274,
+                        "productType": "credit_card",
+                        "productName": "Карта возможностей",
+                        "name": "Карта возможностей",
+                        "url": "https://www.banki.ru/products/creditcards/card/8174/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12433141_small.png",
+                        "updatedAt": "12.03.2025 11:04",
+                        "partner": {
+                            "id": 327,
+                            "type": "bank",
+                            "name": "ВТБ",
+                            "image": "https://static2.banki.ru/ugc/ed/5f/1a/1c/327.png",
+                            "license": "1000",
+                            "url": "/banks/bank/vtb/",
+                            "phone": "8 800 100-24-24 ",
+                            "address": "190000, г. Санкт-Петербург, ул. Большая Морская, д. 29"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8174/",
+                            "rateMin": 49.9,
+                            "rateMax": 69.9,
+                            "rateRange": "49,9 - 69,9%",
+                            "fullCreditRateMin": 47,
+                            "fullCreditRateMax": 69.9,
+                            "amountMin": 30000,
+                            "amountMax": 1000000,
+                            "amountRange": "30 000 - 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 0,
+                            "cashWithdrawalsAtAtms": "* 5,9% от суммы + 590 ₽ за счет кредитных средств; \n* без комиссии за счет собственных средств",
+                            "cashWithdrawalsAtOtherBankAtms": "* 5,9% от суммы + 590 ₽ за счет кредитных средств",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 817401
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 96003,
+            "partnerUid": 960031,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 5310,
+                    "productUid": 836201,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 56 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Баллы",
+                                "value": "до 3000/мес.",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "0 - 1 788 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "24.892%–59.884%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "24.9%–59%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=8362&bank_id=96003&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 8362,
+                    "withCompare": true,
+                    "rating": null,
+                    "productInfo": {
+                        "productId": 5310,
+                        "productType": "credit_card",
+                        "productName": "ДА!",
+                        "name": "ДА!",
+                        "url": "https://www.banki.ru/products/creditcards/card/8362/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_11486676_small.png",
+                        "updatedAt": "07.03.2025 12:15",
+                        "partner": {
+                            "id": 96003,
+                            "type": "bank",
+                            "name": "Банк Синара",
+                            "image": "https://static3.banki.ru/ugc/0f/38/ad/a8/96003.png",
+                            "license": "705",
+                            "url": "/banks/bank/skb-bank/",
+                            "phone": "8 800 100-06-00",
+                            "address": "620026, г. Екатеринбург, ул. Куйбышева, д. 75"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/8362/",
+                            "rateMin": 24.9,
+                            "rateMax": 59,
+                            "rateRange": "24,9 - 59%",
+                            "fullCreditRateMin": 24.892,
+                            "fullCreditRateMax": 59.884,
+                            "amountMin": 10000,
+                            "amountMax": 700000,
+                            "amountRange": "10 000 - 700 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 0,
+                            "annualServiceMax": 1788,
+                            "cashWithdrawalsAtAtms": "* 5,99% + 599 ₽ за счет кредитного лимита; \n* без комиссии за счет собственных средств",
+                            "cashWithdrawalsAtOtherBankAtms": "* 5,99% + 599 ₽ за счет кредитного лимита; \n* 1% от суммы (мин. 150 ₽) за счет собственных средств; \n* без комиссии в банкоматах банков-партнеров за счет собственных средств",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 836201
+                    }
+                }
+            ]
+        },
+        {
+            "partnerId": 9011,
+            "partnerUid": 90111,
+            "partnerType": "bank",
+            "items": [
+                {
+                    "template": "public",
+                    "productId": 4783,
+                    "productUid": 486801,
+                    "productType": "credit_card",
+                    "data": {
+                        "features": [
+                            {
+                                "label": "Льготный период",
+                                "value": "до 55 дней",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Кэшбэк",
+                                "value": "есть",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "Годовое обслуживание",
+                                "value": "500 ₽",
+                                "tooltip": null
+                            },
+                            {
+                                "label": "ПСК",
+                                "value": "0.032%–28.913%",
+                                "tooltip": "Полная стоимость кредита — это сумма всех ваших платежей: ежемесячных взносов, процентов по кредиту, комиссии банка и стоимости дополнительных услуг."
+                            },
+                            {
+                                "label": "Ставка",
+                                "value": "39.9%",
+                                "tooltip": null
+                            }
+                        ],
+                        "specials": [],
+                        "tags": [],
+                        "submitButton": {
+                            "label": "Далее",
+                            "url": "https://www.banki.ru/credit-master/anketa/purposeamountperiod/?product_type=creditcard&purposeCode=11&product_id=4868&bank_id=9011&bank_type=bank&traffic_source=button_false&placement=1&aff_sub1=MAINPRODUCT&aff_sub2=/products/creditcards/&aff_unique3=cc_unauth-feed_page_core_b&reset=1&lp=button_false_creditcard",
+                            "type": "tracking"
+                        }
+                    },
+                    "originalId": 4868,
+                    "withCompare": true,
+                    "rating": null,
+                    "productInfo": {
+                        "productId": 4783,
+                        "productType": "credit_card",
+                        "productName": "Кредитная карта с льготным периодом",
+                        "name": "Карта с льготным периодом",
+                        "url": "https://www.banki.ru/products/creditcards/card/4868/",
+                        "smallImage": "https://cdn.banki.ru/cdn/card-designs/design_12036868_small.png",
+                        "updatedAt": "06.03.2025 14:24",
+                        "partner": {
+                            "id": 9011,
+                            "type": "bank",
+                            "name": "Металлинвестбанк",
+                            "image": "https://static4.banki.ru/ugc/0c/01/f0/26/9011.png",
+                            "license": "2440",
+                            "url": "/banks/bank/metallinvestbank/",
+                            "phone": "8 800 250-97-97",
+                            "address": "119180, г. Москва, ул. Большая Полянка, д. 47, стр. 2"
+                        },
+                        "meta": {
+                            "currency": "RUB",
+                            "detailLink": "https://www.banki.ru/products/creditcards/card/4868/",
+                            "rateMin": 39.9,
+                            "rateMax": 39.9,
+                            "rateRange": "39,9%",
+                            "fullCreditRateMin": 0.032,
+                            "fullCreditRateMax": 28.913,
+                            "amountMin": null,
+                            "amountMax": 1000000,
+                            "amountRange": "до 1 000 000 ₽",
+                            "termMin": null,
+                            "termMax": null,
+                            "periodFromNotation": null,
+                            "periodToNotation": null,
+                            "termUnit": 4,
+                            "issuanceCostMin": 0,
+                            "issuanceCostMax": 0,
+                            "annualServiceMin": 500,
+                            "annualServiceMax": 500,
+                            "cashWithdrawalsAtAtms": "* 4,9% от суммы (мин. 490 ₽) за счет кредитных средств; \n* без комиссии за счет собственных средств",
+                            "cashWithdrawalsAtOtherBankAtms": "* 4,9% от суммы (мин. 490 ₽)",
+                            "initialFeeMin": null,
+                            "initialFeeMax": null
+                        },
+                        "productUid": 486801
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "gracePeriodCount": null
+    },
+    "pagination": {
+        "page": 1,
+        "perPage": 10,
+        "total": 39,
+        "itemsCount": 84
+    }
+}
