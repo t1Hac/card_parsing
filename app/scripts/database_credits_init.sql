@@ -1,16 +1,10 @@
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
-CREATE TABLE users (
-    user_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    username VARCHAR(50) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL
-);
-
 CREATE TABLE categories (
     category_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     name VARCHAR(100) NOT NULL, -- Название категории (например, "путешествия", "продукты")
     status VARCHAR(50) DEFAULT 'none', -- Статус категории ('none', 'preferred', 'excluded')
-    CONSTRAINT unique_mcc_bank UNIQUE (mcc_code, bank)
+    CONSTRAINT unique_mcc_bank UNIQUE (bank)
 );
 
 CREATE TABLE partners (
@@ -20,9 +14,16 @@ CREATE TABLE partners (
     CONSTRAINT unique_partner_bank UNIQUE (name, bank)
 );
 
+CREATE TABLE users (
+    user_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL
+);
+
 CREATE TABLE credit_cards (
     card_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    user_id UUID NOT NULL, 
     card_name VARCHAR(100) NOT NULL,
     bank VARCHAR(100) NOT NULL, 
     interest_rate NUMERIC(5, 2) NOT NULL, 
@@ -33,8 +34,18 @@ CREATE TABLE credit_cards (
     annual_fee NUMERIC(15, 2) DEFAULT 0.0,
     max_cashback NUMERIC(15, 2), 
     balance_interest_rate NUMERIC(5, 2) DEFAULT 0.0, -- Процент на остаток
-    status VARCHAR(50) DEFAULT 'active', -- Статус карты ('active', 'blocked', 'expired')
-    CONSTRAINT fk_credit_cards_user FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+    threshold NUMERIC(15, 2), 
+    status VARCHAR(50) DEFAULT 'active' -- Статус карты ('active', 'blocked', 'expired')
+);
+
+CREATE TABLE user_credit_cards (
+    user_id UUID NOT NULL,
+    card_id UUID NOT NULL,
+    PRIMARY KEY (user_id, card_id), 
+    CONSTRAINT fk_user_credit_cards_user FOREIGN KEY (user_id) 
+        REFERENCES users(user_id) ON DELETE CASCADE,
+    CONSTRAINT fk_user_credit_cards_card FOREIGN KEY (card_id) 
+        REFERENCES credit_cards(card_id) ON DELETE CASCADE
 );
 
 CREATE TABLE user_preferences (
@@ -42,17 +53,8 @@ CREATE TABLE user_preferences (
     user_id UUID NOT NULL,
     category_id UUID,
     partner_id UUID,
-    repayment_term INT,
+    repayment_term VARCHAR(50), -- Тип вознаграждения ('Very important', 'Important', 'Not important')
     reward_type VARCHAR(50) NOT NULL, -- Вид вознаграждения ('cash', 'bonuses', 'miles')
-    weight_interest_rate NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_credit_limit NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_grace_period NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_annual_fee NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_max_cashback NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_balance_interest NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_cashback_threshold NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_category_match NUMERIC(3, 2) DEFAULT 0.5, 
-    weight_reward_type_match NUMERIC(3, 2) DEFAULT 0.5, 
     CONSTRAINT fk_user_preferences_user FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
     CONSTRAINT fk_user_preferences_category FOREIGN KEY (category_id) REFERENCES categories(category_id) ON DELETE SET NULL,
     CONSTRAINT fk_user_preferences_partner FOREIGN KEY (partner_id) REFERENCES partners(partner_id) ON DELETE SET NULL
@@ -63,7 +65,6 @@ CREATE TABLE cashback_rewards (
     card_id UUID NOT NULL,
     reward_type VARCHAR(50) NOT NULL, -- Тип вознаграждения ('cash', 'bonuses', 'miles')
     cashback_amount NUMERIC(15, 2) DEFAULT 0.0, 
-    threshold NUMERIC(15, 2), 
     CONSTRAINT fk_cashback_rewards_card FOREIGN KEY (card_id) REFERENCES credit_cards(card_id) ON DELETE CASCADE
 );
 
