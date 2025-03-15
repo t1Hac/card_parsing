@@ -9,32 +9,29 @@ CREATE TABLE users (
 CREATE TABLE categories (
     category_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     name VARCHAR(100) NOT NULL, -- Название категории (например, "путешествия", "продукты")
-    --mcc_code VARCHAR(4) NOT NULL, -- MCC-код (например, "5411" для продуктов)
-    --bank VARCHAR(100), -- Банк, если категория специфична для банка
     status VARCHAR(50) DEFAULT 'none', -- Статус категории ('none', 'preferred', 'excluded')
     CONSTRAINT unique_mcc_bank UNIQUE (mcc_code, bank)
 );
 
 CREATE TABLE partners (
     partner_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    name VARCHAR(100) NOT NULL, -- Название компании-партнера
-    bank VARCHAR(100) NOT NULL, -- Банк, с которым сотрудничает партнер
+    company_name VARCHAR(100) NOT NULL, 
+    bank VARCHAR(100) NOT NULL, 
     CONSTRAINT unique_partner_bank UNIQUE (name, bank)
 );
 
 CREATE TABLE credit_cards (
     card_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    user_id UUID NOT NULL, -- Владелец карты
-    name VARCHAR(100) NOT NULL, -- Название карты (например, "Tinkoff Platinum")
-    full_name VARCHAR(150) NOT NULL, -- Полное название карты
-    bank VARCHAR(100) NOT NULL, -- Банк
-    interest_rate NUMERIC(5, 2) NOT NULL, -- Процентная ставка (например, 15.5%)
-    credit_limit NUMERIC(15, 2) NOT NULL, -- Кредитный лимит
-    atm_withdrawal_own NUMERIC(15, 2) DEFAULT 0.0, -- Комиссия за снятие в своих банкоматах
-    atm_withdrawal_other NUMERIC(15, 2) DEFAULT 0.0, -- Комиссия за снятие в чужих банкоматах
-    grace_period INT, -- Льготный период (в днях)
-    annual_fee NUMERIC(15, 2) DEFAULT 0.0, -- Годовое обслуживание
-    max_cashback NUMERIC(15, 2), -- Максимальный кэшбек за расчетный период
+    user_id UUID NOT NULL, 
+    card_name VARCHAR(100) NOT NULL,
+    bank VARCHAR(100) NOT NULL, 
+    interest_rate NUMERIC(5, 2) NOT NULL, 
+    credit_limit NUMERIC(15, 2) NOT NULL, 
+    atm_withdrawal_own NUMERIC(15, 2) DEFAULT 0.0, 
+    atm_withdrawal_other NUMERIC(15, 2) DEFAULT 0.0,
+    grace_period INT, 
+    annual_fee NUMERIC(15, 2) DEFAULT 0.0,
+    max_cashback NUMERIC(15, 2), 
     balance_interest_rate NUMERIC(5, 2) DEFAULT 0.0, -- Процент на остаток
     status VARCHAR(50) DEFAULT 'active', -- Статус карты ('active', 'blocked', 'expired')
     CONSTRAINT fk_credit_cards_user FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
@@ -43,44 +40,40 @@ CREATE TABLE credit_cards (
 CREATE TABLE user_preferences (
     preference_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id UUID NOT NULL,
-    category_id UUID, -- Предпочитаемая категория (может быть NULL)
-    partner_id UUID, -- Предпочитаемый партнер (может быть NULL)
-    repayment_term INT, -- Предпочитаемый срок погашения (в днях, может быть NULL)
+    category_id UUID,
+    partner_id UUID,
+    repayment_term INT,
     reward_type VARCHAR(50) NOT NULL, -- Вид вознаграждения ('cash', 'bonuses', 'miles')
-    reward_preference VARCHAR(50) NOT NULL, -- Строгий фильтр или ранжирование ('strict', 'ranking')
+    weight_interest_rate NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_credit_limit NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_grace_period NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_annual_fee NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_max_cashback NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_balance_interest NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_cashback_threshold NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_category_match NUMERIC(3, 2) DEFAULT 0.5, 
+    weight_reward_type_match NUMERIC(3, 2) DEFAULT 0.5, 
     CONSTRAINT fk_user_preferences_user FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
     CONSTRAINT fk_user_preferences_category FOREIGN KEY (category_id) REFERENCES categories(category_id) ON DELETE SET NULL,
     CONSTRAINT fk_user_preferences_partner FOREIGN KEY (partner_id) REFERENCES partners(partner_id) ON DELETE SET NULL
 );
 
-ALTER TABLE user_preferences
-ADD COLUMN IF NOT EXISTS weight_interest_rate NUMERIC(3, 2) DEFAULT 0.5, -- Вес для процентной ставки
-ADD COLUMN IF NOT EXISTS weight_credit_limit NUMERIC(3, 2) DEFAULT 0.5, -- Вес для кредитного лимита
-ADD COLUMN IF NOT EXISTS weight_grace_period NUMERIC(3, 2) DEFAULT 0.5, -- Вес для льготного периода
-ADD COLUMN IF NOT EXISTS weight_annual_fee NUMERIC(3, 2) DEFAULT 0.5, -- Вес для годового обслуживания
-ADD COLUMN IF NOT EXISTS weight_max_cashback NUMERIC(3, 2) DEFAULT 0.5, -- Вес для максимального кэшбека
-ADD COLUMN IF NOT EXISTS weight_balance_interest NUMERIC(3, 2) DEFAULT 0.5, -- Вес для процента на остаток
-ADD COLUMN IF NOT EXISTS weight_cashback_threshold NUMERIC(3, 2) DEFAULT 0.5, -- Вес для накопленного кэшбека
-ADD COLUMN IF NOT EXISTS weight_category_match NUMERIC(3, 2) DEFAULT 0.5, -- Вес для совпадения категории
-ADD COLUMN IF NOT EXISTS weight_reward_type_match NUMERIC(3, 2) DEFAULT 0.5; -- Вес для совпадения типа вознаграждения
-
 CREATE TABLE cashback_rewards (
     reward_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     card_id UUID NOT NULL,
     reward_type VARCHAR(50) NOT NULL, -- Тип вознаграждения ('cash', 'bonuses', 'miles')
-    amount NUMERIC(15, 2) DEFAULT 0.0, -- Накопленное количество
-    threshold NUMERIC(15, 2), -- Порог для приоритизации карты (например, 5000 бонусов)
+    cashback_amount NUMERIC(15, 2) DEFAULT 0.0, 
+    threshold NUMERIC(15, 2), 
     CONSTRAINT fk_cashback_rewards_card FOREIGN KEY (card_id) REFERENCES credit_cards(card_id) ON DELETE CASCADE
 );
 
--- нужна ли эта таблица
 CREATE TABLE purchases (
     purchase_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id UUID NOT NULL,
     card_id UUID NOT NULL,
     category_id UUID NOT NULL,
-    amount NUMERIC(15, 2) NOT NULL, -- Сумма покупки
-    benefit NUMERIC(15, 2) DEFAULT 0.0, -- Выгода от покупки (рассчитывается)
+    amount NUMERIC(15, 2) NOT NULL, 
+    benefit NUMERIC(15, 2) DEFAULT 0.0, 
     benefit_type VARCHAR(50) NOT NULL, -- Тип выгоды ('percentage', 'fixed')
     purchase_date TIMESTAMP DEFAULT NOW(),
     CONSTRAINT fk_purchases_user FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
@@ -161,8 +154,37 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+CREATE OR REPLACE FUNCTION calculate_card_benefit(
+    p_user_id UUID,
+    p_category_id UUID DEFAULT NULL
+)
+RETURNS TABLE (
+    card_id UUID,
+    total_benefit NUMERIC,
+    benefit_status VARCHAR(50)
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        p.card_id,
+        SUM(CASE 
+            WHEN p.benefit_type = 'percentage' THEN p.amount * p.benefit / 100 
+            ELSE p.benefit 
+        END) AS total_benefit,
+        CASE 
+            WHEN p.benefit_type = 'percentage' THEN 'converted_rubles'
+            ELSE 'rubles'
+        END AS benefit_status
+    FROM purchases p
+    WHERE p.user_id = p_user_id
+    AND (p_category_id IS NULL OR p.category_id = p_category_id)
+    GROUP BY p.card_id, p.benefit_type
+    ORDER BY total_benefit DESC;
+END;
+$$ LANGUAGE plpgsql;
 
-CREATE OR REPLACE FUNCTION get_all_cards_sorted_by_optimality(
+
+CREATE OR REPLACE FUNCTION get_all_cards_with_benefit_and_optimality(
     p_user_id UUID,
     p_category_id UUID DEFAULT NULL
 )
@@ -170,7 +192,8 @@ RETURNS TABLE (
     card_id UUID,
     name TEXT,
     bank TEXT,
-    optimality_score NUMERIC
+    total_benefit NUMERIC,
+    benefit_status VARCHAR(50),
 ) AS $$
 BEGIN
     RETURN QUERY
@@ -178,10 +201,12 @@ BEGIN
         cc.card_id,
         cc.name::TEXT,
         cc.bank::TEXT,
-        co.optimality_score
-    FROM calculate_card_optimality(p_user_id, p_category_id) co
-    JOIN credit_cards cc ON co.card_id = cc.card_id
-    ORDER BY co.optimality_score DESC;
+        cb.total_benefit,
+        cb.benefit_status,
+    FROM credit_cards cc
+    JOIN calculate_card_optimality(p_user_id, p_category_id) co ON cc.card_id = co.card_id
+    JOIN calculate_card_benefit(p_user_id, p_category_id) cb ON cc.card_id = cb.card_id
+    WHERE cc.user_id = p_user_id
+    ORDER BY cb.total_benefit DESC;
 END;
 $$ LANGUAGE plpgsql;
-
