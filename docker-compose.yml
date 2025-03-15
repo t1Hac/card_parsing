@@ -1,3 +1,4 @@
+version: "3.9"
 
 services:
   db:
@@ -11,14 +12,6 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-  zookeeper:
-      image: confluentinc/cp-zookeeper:7.0.0
-      container_name: zookeeper
-      environment:
-        ZOOKEEPER_CLIENT_PORT: 2181
-        ZOOKEEPER_TICK_TIME: 2000
-      ports:
-        - "2181:2181"
 
   kafka:
     image: confluentinc/cp-kafka:7.0.0
@@ -41,5 +34,7 @@ services:
     volumes:
       - kafka_data:/var/lib/kafka/data
 
+
 volumes:
   postgres_data:
+  kafka_data:
